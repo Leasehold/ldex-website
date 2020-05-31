@@ -4,4 +4,4 @@ author: Jonathan Gros-Dubois
 authorURL: https://twitter.com/jgrosdubois
 ---
 
-SocketCluster.io website is now online.
+LDEX website is now online.

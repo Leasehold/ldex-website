@@ -1,23 +1,8 @@
 {
   "docs": {
     "Guides": [
-      "getting-started",
-      "basic-usage",
-      "consumers",
-      "authentication",
-      "middleware-and-authorization",
-      "streams-and-backpressure",
-      "deploying-to-kubernetes"
+      "getting-started"
     ],
-    "API": [
-      "api-socket-cluster-server",
-      "api-socket-cluster-client",
-      "api-ag-client-socket",
-      "api-ag-channel",
-      "api-ag-server",
-      "api-ag-server-socket",
-      "api-ag-exchange",
-      "api-ag-action"
-    ]
+    "API": []
   }
 }

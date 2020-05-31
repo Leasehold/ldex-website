@@ -49,7 +49,7 @@ function Versions(props) {
                   <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }next/getting-started`}> Documentation </a>
                 </td>
                 <td>
-                  <a href="https://github.com/SocketCluster/socketcluster">Source Code</a>
+                  <a href="https://github.com/jondubois/lisk-dex">Source Code</a>
                 </td>
               </tr>
             </tbody>

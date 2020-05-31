@@ -21,17 +21,17 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'SocketCluster', // Title for your website.
-  tagline: 'Highly scalable realtime framework optimized for async/await',
-  url: 'https://socketcluster.io', // Your website URL
+  title: 'LDEX', // Title for your website.
+  tagline: 'Decentralized exchange',
+  url: 'https://ldex.exchange', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'socketcluster-website',
-  organizationName: 'SocketCluster',
+  projectName: 'ldex-website',
+  organizationName: 'LDEX',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} SocketCluster.io`,
+  copyright: `Copyright © ${new Date().getFullYear()} LDEX`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

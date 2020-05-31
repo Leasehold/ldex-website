@@ -24,14 +24,6 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section style={{textAlign: 'center'}}>
-          <a href={this.docUrl('deploying-to-kubernetes', this.props.language)}>
-            <div className="footerPromoItem" >
-              <img className="footerPromoIcon" src={`${this.props.config.baseUrl}img/k8s-logo.png`} />
-              <div className="footerPromoText">Runs and scales on Kubernetes</div>
-            </div>
-          </a>
-        </section>
         <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
@@ -57,7 +49,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://gitter.im/SocketCluster/socketcluster">Project Chat</a>
+            <a href="https://gitter.im/lisk-dex/community">Project Chat</a>
             <a
               href="https://twitter.com/SocketCluster"
               target="_blank"
@@ -67,12 +59,12 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/SocketCluster/socketcluster">GitHub</a>
+            <a href="https://github.com/jondubois/lisk-dex">GitHub</a>
             <a
               className="github-button"
-              href="https://github.com/SocketCluster/socketcluster"
+              href="https://github.com/jondubois/lisk-dex"
               data-icon="octicon-star"
-              data-count-href="https://github.com/SocketCluster/socketcluster/stargazers"
+              data-count-href="https://github.com/jondubois/lisk-dex/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub">

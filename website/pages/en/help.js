@@ -27,7 +27,7 @@ function Help(props) {
       title: 'Browse guides',
     },
     {
-      content: 'Ask questions about the documentation and project on [Gitter.im](https://gitter.im/SocketCluster/socketcluster)',
+      content: 'Ask questions about the documentation and project on [Gitter.im](https://gitter.im/lisk-dex/community)',
       title: 'Join the community',
     },
     {

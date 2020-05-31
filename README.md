@@ -1,2 +1,2 @@
-# socketcluster-website
-SocketCluster.io website
+# ldex-website
+LDEX website

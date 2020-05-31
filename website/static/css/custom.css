@@ -65,11 +65,17 @@
   background: #20232A;
 }
 
+.splashSubsectionContent {
+  display: flex;
+  align-items: baseline;
+}
+
 .splashSubsectionItem {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 160px;
   text-align: center;
   margin-right: 50px;
   color: #FFFFFF;
