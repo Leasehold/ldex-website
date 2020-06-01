@@ -127,22 +127,28 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Trades typically go through within one or two minutes. The LDEX UI application displays progress indicators while orders are pending and after they have been matched.',
+            content: 'Trades typically go through within one or two minutes. The LDEX trading application displays progress indicators while orders are pending and when they have been matched.',
             image: `${baseUrl}img/icons/recover.png`,
             imageAlign: 'top',
             title: 'Fast',
           },
           {
-            content: 'Implemented via a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 members/operators who sign-off on cross-chain trades. Trades only go through when if have majority approval.',
+            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 members/operators who sign-off on cross-chain trades.',
             image: `${baseUrl}img/icons/tangled-hell.png`,
             imageAlign: 'top',
             title: 'Decentralized',
           },
           {
-            content: 'The full cross-chain trading history is visible on both affected blockchains. Cross-chain trades can be traced across different blockchains and historical prices can also be determined trustlessly.',
+            content: 'The full cross-chain trading history is visible on both affected blockchains. Trades can be traced across different blockchains and historical prices can be determined trustlessly.',
             image: `${baseUrl}img/icons/declare.png`,
             imageAlign: 'top',
             title: 'Transparent',
+          },
+          {
+            content: 'Transfers only go through if they have been signed by the majority DEX members. This protects funds from both attackers and rogue operators.',
+            image: `${baseUrl}img/icons/declare-king.png`,
+            imageAlign: 'top',
+            title: 'Secure',
           },
           {
             content: 'Trades are processed chain-to-chain without centralized intermediaries. The pseudo-anonymity provided by the underlying blockchains is maintained.',
@@ -157,19 +163,13 @@ class Index extends React.Component {
             title: 'User friendly',
           },
           {
-            content: 'DEX members receive a share of trading fees. DEX members who fail to sign valid trades will not receive any dividends from those trades. Trades only go through if they have been signed by the majority members.',
-            image: `${baseUrl}img/icons/declare-king.png`,
-            imageAlign: 'top',
-            title: 'Creates the right incentives',
-          },
-          {
-            content: 'Cross-chain transfers are derived from the data of the underlying blockchains. This leaves no room for interpretation. The underlying blockchains can be re-processed any number of times and the output will always be consistent (and idempotent).',
+            content: 'Cross-chain transfers are derived from the data of the underlying blockchains. This means that each market can only have one correct and immutable version of history.',
             image: `${baseUrl}img/icons/delivery-order.png`,
             imageAlign: 'top',
             title: 'Deterministic',
           },
           {
-            content: 'All the code behind LDEX is fully open source. Our goal is to create a decentralized free market which is open to all participants. We aim to kickstart an ecosystem which will expand far beyond our own capacity.',
+            content: 'All the code behind LDEX is fully open source. The goal is to create an ecosystem of decentralized free markets which is open to all participants.',
             image: `${baseUrl}img/icons/unlimited-channels.png`,
             imageAlign: 'top',
             title: 'Open source',
