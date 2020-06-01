@@ -127,7 +127,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Trades typically go through within one or two minutes. The LDEX trading application displays progress indicators while orders are pending and when they have been matched.',
+            content: 'Trades typically go through within one to two minutes. The LDEX trading application displays progress indicators while orders are pending and when they have been matched.',
             image: `${baseUrl}img/icons/recover.png`,
             imageAlign: 'top',
             title: 'Fast',
