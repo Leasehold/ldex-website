@@ -73,7 +73,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl('getting-started')}>Get started</Button>
+            <Button href="https://ldex.exchange/trade">Start trading</Button>
             <Button
               href="https://github.com/jondubois/lisk-dex"
               target="_blank"
@@ -128,25 +128,25 @@ class Index extends React.Component {
         {[
           {
             content: 'Trades typically go through within one or two minutes. The LDEX UI application displays progress indicators while orders are pending and after they have been matched.',
-            image: `${baseUrl}img/icons/unlimited-channels.png`,
+            image: `${baseUrl}img/icons/recover.png`,
             imageAlign: 'top',
             title: 'Fast',
           },
           {
             content: 'Implemented via a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 members/operators who sign-off on cross-chain trades. Trades only go through when if have majority approval.',
-            image: `${baseUrl}img/icons/deploy-containers.png`,
+            image: `${baseUrl}img/icons/tangled-hell.png`,
             imageAlign: 'top',
             title: 'Decentralized',
           },
           {
             content: 'The full cross-chain trading history is visible on both affected blockchains. Cross-chain trades can be traced across different blockchains and historical prices can also be determined trustlessly.',
-            image: `${baseUrl}img/icons/scale.png`,
+            image: `${baseUrl}img/icons/declare.png`,
             imageAlign: 'top',
             title: 'Transparent',
           },
           {
             content: 'Trades are processed chain-to-chain without centralized intermediaries. The pseudo-anonymity provided by the underlying blockchains is maintained.',
-            image: `${baseUrl}img/icons/delivery-order.png`,
+            image: `${baseUrl}img/icons/authentication.png`,
             imageAlign: 'top',
             title: 'Pseudo-anonymous',
           },
@@ -158,19 +158,19 @@ class Index extends React.Component {
           },
           {
             content: 'DEX members receive a share of trading fees. DEX members who fail to sign valid trades will not receive any dividends from those trades. Trades only go through if they have been signed by the majority members.',
-            image: `${baseUrl}img/icons/authentication.png`,
+            image: `${baseUrl}img/icons/declare-king.png`,
             imageAlign: 'top',
             title: 'Creates the right incentives',
           },
           {
             content: 'Cross-chain transfers are derived from the data of the underlying blockchains. This leaves no room for interpretation. The underlying blockchains can be re-processed any number of times and the output will always be consistent (and idempotent).',
-            image: `${baseUrl}img/icons/breaks-throttle.png`,
+            image: `${baseUrl}img/icons/delivery-order.png`,
             imageAlign: 'top',
             title: 'Deterministic',
           },
           {
             content: 'All the code behind LDEX is fully open source. Our goal is to create a decentralized free market which is open to all participants. We aim to kickstart an ecosystem which will expand far beyond our own capacity.',
-            image: `${baseUrl}img/icons/police-access-control.png`,
+            image: `${baseUrl}img/icons/unlimited-channels.png`,
             imageAlign: 'top',
             title: 'Open source',
           },
@@ -178,61 +178,19 @@ class Index extends React.Component {
       </Block>
     );
 
-
-      const ClientLibraries = () => (
-          <BlockWithHeading layout="fourColumn" background={'light'} heading={'Client Libraries'}>
-              {[
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/136/136530.svg',
-                      imageAlign: 'top',
-                      title: 'Javascript Client',
-                      imageLink: 'https://github.com/SocketCluster/socketcluster-client'
-                  },
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/226/226770.svg',
-                      imageAlign: 'top',
-                      title: 'Java/Android Client',
-                      imageLink: 'https://github.com/sacOO7/socketcluster-client-java'
-                  },
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/180/180867.svg',
-                      imageAlign: 'top',
-                      title: 'Python Client',
-                      imageLink: 'https://github.com/sacOO7/socketcluster-client-python'
-                  },
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/376/376105.svg',
-                      imageAlign: 'top',
-                      title: 'DotNet Client',
-                      imageLink: 'https://github.com/sacOO7/SocketclusterClientDotNet'
-                  },
-                  {
-                      image: 'https://github.com/egonelbre/gophers/raw/master/.thumb/animation/gopher-dance-long-3x.gif',
-                      imageAlign: 'top',
-                      title: 'Go Client',
-                      imageLink: 'https://github.com/sacOO7/socketcluster-client-go'
-                  },
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/919/919833.svg',
-                      imageAlign: 'top',
-                      title: 'Swift/iOS Client',
-                      imageLink: 'https://github.com/sacOO7/socketcluster-client-swift'
-                  },
-                  {
-                      image: 'https://image.flaticon.com/icons/svg/919/919842.svg',
-                      imageAlign: 'top',
-                      title: 'Ruby client',
-                      imageLink: 'https://github.com/OpenSocket/socketcluster-client-ruby'
-                  },
-                  {
-                      image: 'https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png',
-                      imageAlign: 'top',
-                      title: 'Unity Client',
-                      imageLink: 'https://github.com/sacOO7/socketcluster-client-unity'
-                  },
-              ]}
-          </BlockWithHeading>
-      );
+    // const Markets = () => (
+    //     <BlockWithHeading layout="fourColumn" background={'light'} heading={'Client Libraries'}>
+    //         {[
+    //             {
+    //                 image: 'https://image.flaticon.com/icons/svg/136/136530.svg',
+    //                 imageAlign: 'top',
+    //                 title: 'Javascript Client',
+    //                 imageLink: 'https://github.com/SocketCluster/socketcluster-client'
+    //             },
+    //         ]}
+    //     </BlockWithHeading>
+    // );
+    //
     // const Showcase = () => {
     //   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     //   const langPart = `${language ? `${language}/` : ''}`;
@@ -264,7 +222,6 @@ class Index extends React.Component {
           <Features />
         </div>
           <div className="mainContainer">
-              <ClientLibraries />
           </div>
       </div>
     );

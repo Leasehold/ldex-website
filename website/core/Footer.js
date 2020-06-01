@@ -37,29 +37,17 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Documentation</h5>
-            <a href={this.docUrl('getting-started.html', this.props.language)}>
-              Getting Started
-            </a>
-            <a href={this.docUrl('guides.html', this.props.language)}>
-              Guides
-            </a>
-            <a href={this.docUrl('api.html', this.props.language)}>
-              API Reference
-            </a>
+            <span style={{color: 'rgba(255, 255, 255, 0.6)'}}>
+              Coming soon...
+            </span>
           </div>
           <div>
             <h5>Community</h5>
-            <a href="https://gitter.im/lisk-dex/community">Project Chat</a>
-            <a
-              href="https://twitter.com/SocketCluster"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
+            <a href="https://gitter.im/lisk-dex/community" target="_blank" rel="noreferrer noopener">Project Chat</a>
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/jondubois/lisk-dex">GitHub</a>
+            <a href="https://github.com/jondubois/lisk-dex" target="_blank" rel="noreferrer noopener">GitHub</a>
             <a
               className="github-button"
               href="https://github.com/jondubois/lisk-dex"

@@ -38,9 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'guides', label: 'Guides'},
-    {doc: 'api', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {label: 'Start trading', href: 'https://ldex.exchange/trade'},
+    // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],
 
@@ -50,12 +49,12 @@ const siteConfig = {
   /* path to images for header/footer */
   // headerIcon: 'img/docusaurus.svg',
   // footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#0198E1',
-    secondaryColor: '#1874CD',
+    primaryColor: '#31b44a',
+    secondaryColor: '#009444',
   },
 
   /* Custom fonts for website */
