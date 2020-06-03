@@ -133,7 +133,7 @@ class Index extends React.Component {
             title: 'Fast',
           },
           {
-            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 validators who validate cross-chain trades.',
+            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 validators who sign cross-chain trades.',
             image: `${baseUrl}img/icons/network.png`,
             imageAlign: 'top',
             title: 'Decentralized',
@@ -151,7 +151,7 @@ class Index extends React.Component {
             title: 'Secure',
           },
           {
-            content: 'Trades are processed chain-to-chain without centralized intermediaries. The pseudo-anonymity provided by the underlying blockchains is maintained.',
+            content: 'Trades are processed chain-to-chain without a centralized intermediary. The pseudo-anonymity provided by the underlying blockchains is maintained.',
             image: `${baseUrl}img/icons/anonymous.png`,
             imageAlign: 'top',
             title: 'Pseudo-anonymous',
