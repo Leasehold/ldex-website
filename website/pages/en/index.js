@@ -145,7 +145,7 @@ class Index extends React.Component {
             title: 'Transparent',
           },
           {
-            content: 'Transfers only go through if they have been signed by the majority DEX validators. This protects funds from both attackers and rogue validators.',
+            content: 'Transfers only go through if they have been signed by the majority of DEX validators. This protects funds from both attackers and rogue validators.',
             image: `${baseUrl}img/icons/security.png`,
             imageAlign: 'top',
             title: 'Secure',
@@ -163,7 +163,7 @@ class Index extends React.Component {
             title: 'User friendly',
           },
           {
-            content: 'Cross-chain transfers are derived from the data of the underlying blockchains. This means that each market can only have one correct and immutable version of history.',
+            content: 'Cross-chain transfers are derived from the data on the underlying blockchains. This means that each market can only have one correct and immutable version of history.',
             image: `${baseUrl}img/icons/chain.png`,
             imageAlign: 'top',
             title: 'Deterministic',
