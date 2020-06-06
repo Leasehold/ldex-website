@@ -75,10 +75,10 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="https://ldex.exchange/trade">Start trading</Button>
             <Button
-              href="https://github.com/jondubois/lisk-dex"
+              href="https://github.com/Leasehold/lisk-dex-ui"
               target="_blank"
               rel="noreferrer noopener"
-            >Browse GitHub</Button>
+            >Download desktop app</Button>
             <Button
               href="https://gitter.im/lisk-dex/community"
               target="_blank"
