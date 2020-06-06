@@ -73,12 +73,12 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="https://ldex.exchange/trade">Start trading</Button>
+            <Button href="trade">Start trading</Button>
             <Button
               href="https://github.com/Leasehold/lisk-dex-ui"
               target="_blank"
               rel="noreferrer noopener"
-            >Download desktop app</Button>
+            >Run desktop app from source</Button>
             <Button
               href="https://gitter.im/lisk-dex/community"
               target="_blank"
@@ -178,18 +178,30 @@ class Index extends React.Component {
       </Block>
     );
 
-    // const Markets = () => (
-    //     <BlockWithHeading layout="fourColumn" background={'light'} heading={'Client Libraries'}>
-    //         {[
-    //             {
-    //                 image: 'https://image.flaticon.com/icons/svg/136/136530.svg',
-    //                 imageAlign: 'top',
-    //                 title: 'Javascript Client',
-    //                 imageLink: 'https://github.com/SocketCluster/socketcluster-client'
-    //             },
-    //         ]}
-    //     </BlockWithHeading>
-    // );
+    const DesktopApps = () => (
+        <BlockWithHeading layout="fourColumn" background={'light'} heading={'Desktop app downloads'}>
+            {[
+                {
+                    image: 'img/icons/windows-icon.png',
+                    imageAlign: 'top',
+                    title: 'Windows',
+                    imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
+                },
+                {
+                    image: 'img/icons/apple-icon.png',
+                    imageAlign: 'top',
+                    title: 'Mac',
+                    imageLink: 'downloads/lisk-dex-electron-0.1.0-mac.dmg'
+                },
+                {
+                    image: 'img/icons/ubuntu-icon.png',
+                    imageAlign: 'top',
+                    title: 'Linux',
+                    imageLink: 'downloads/lisk-dex-electron-0.1.0-linux-x86_64.AppImage'
+                },
+            ]}
+        </BlockWithHeading>
+    );
     //
     // const Showcase = () => {
     //   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
@@ -221,7 +233,8 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
         </div>
-          <div className="mainContainer">
+          <div className="mainContainer desktopApps">
+            <DesktopApps />
           </div>
       </div>
     );

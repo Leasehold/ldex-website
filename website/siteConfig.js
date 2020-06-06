@@ -38,7 +38,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {label: 'Start trading', href: 'https://ldex.exchange/trade'},
+    {label: 'Start trading', href: 'trade'},
     // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],
