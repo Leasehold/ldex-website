@@ -11,6 +11,7 @@
 
 .blockHeading {
   margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .imageAlignTop .blockImage {
@@ -190,4 +191,8 @@
 
 .desktopApps .container {
   padding-bottom: 50px;
+}
+
+.desktopApps .container .wrapper {
+  max-width: 600px;
 }
