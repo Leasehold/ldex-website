@@ -188,12 +188,6 @@ class Index extends React.Component {
                     imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
                 },
                 {
-                    image: 'img/icons/apple-icon.png',
-                    imageAlign: 'top',
-                    title: 'Mac',
-                    imageLink: 'downloads/lisk-dex-electron-0.1.0-mac.dmg'
-                },
-                {
                     image: 'img/icons/ubuntu-icon.png',
                     imageAlign: 'top',
                     title: 'Linux',
@@ -202,20 +196,6 @@ class Index extends React.Component {
             ]}
         </BlockWithHeading>
     );
-    //
-    // const Showcase = () => {
-    //   const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
-    //   const langPart = `${language ? `${language}/` : ''}`;
-    //   const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
-    //
-    //   return (
-    //     <div className="productShowcaseSection paddingBottom">
-    //       <a href={docUrl('deploying-to-kubernetes.html')}>
-    //         <img style={{width: '500px', marginTop: '100px'}} src={`${baseUrl}img/kubernetes-horizontal.png`} />
-    //       </a>
-    //     </div>
-    //   );
-    // };
 
     return (
       <div>
