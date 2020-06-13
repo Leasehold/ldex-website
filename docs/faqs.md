@@ -24,7 +24,7 @@ Because orders are filled in real time, the base fee could be levied multiple ti
 
 Before you place an order, all of your tokens are in your sole custody inside your own blockchain wallet.
 Once you submit an order to LDEX, the tokens contained in the underlying transaction will be stored in the DEX multisig wallet until they are matched with counter-offers.
-No single or minority group of LDEX members/validators has custody of your tokens since all transfers out of the DEX multisig wallets require signatures from the majority of DEX members/validators.
+No single LDEX member or minority group has control over your tokens since all transfers out of the DEX multisig wallets require signatures from the majority of DEX members/validators.
 As a user, you have the ability to cancel your own order at any time by submitting a `close` order.
 
 ### Can trades across different blockchains be traced?
