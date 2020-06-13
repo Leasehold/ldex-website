@@ -5,4 +5,4 @@ sidebar_label: Guides
 original_id: guides
 ---
 
-- [Getting started](getting-started.md)
+- [FAQs](faqs.md)

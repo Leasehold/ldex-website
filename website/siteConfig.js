@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'LDEX', // Title for your website.
-  tagline: 'Decentralized exchange',
+  tagline: 'Lisk Decentralized Exchange',
   url: 'https://ldex.exchange', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,8 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {doc: 'faqs', label: 'FAQs'},
     {label: 'Start trading', href: 'trade'},
-    // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],
 

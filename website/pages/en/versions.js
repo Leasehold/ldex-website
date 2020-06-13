@@ -32,7 +32,7 @@ function Versions(props) {
               <tr>
                 <th>{latestVersion}</th>
                 <td>
-                  <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }getting-started`}> Documentation </a>
+                  <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }faqs`}> Documentation </a>
                 </td>
                 <td>
                   <a href="">Release Notes</a>
@@ -46,7 +46,7 @@ function Versions(props) {
               <tr>
                 <th>master</th>
                 <td>
-                  <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }next/getting-started`}> Documentation </a>
+                  <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }next/faqs`}> Documentation </a>
                 </td>
                 <td>
                   <a href="https://github.com/jondubois/lisk-dex">Source Code</a>
@@ -64,7 +64,7 @@ function Versions(props) {
                     <tr key={version}>
                       <th>{version}</th>
                       <td>
-                        <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }${version}/getting-started`}> Documentation </a>
+                        <a href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${ props.language ? props.language + '/' : '' }${version}/faqs`}> Documentation </a>
                       </td>
                       <td>
                         <a href={`${repoUrl}/releases/tag/v${version}`}>
