@@ -13,7 +13,8 @@ const Container = CompLibrary.Container;
 
 const CWD = process.cwd();
 
-const versions = require(`${CWD}/versions.json`);
+// const versions = require(`${CWD}/versions.json`); // TODO Uncomment to support multiple versions.
+const versions = []; // TODO Uncomment to support multiple versions.
 
 function Versions(props) {
   const {config: siteConfig} = props;
