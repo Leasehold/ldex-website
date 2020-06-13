@@ -4,17 +4,12 @@ title: FAQs
 sidebar_label: FAQs
 ---
 
-### How decentralized is LDEX?
+### How is LDEX decentralized?
 
 Price history, order matching and trade execution are fully decentralized.
 There is no point of centralization anywhere in the entire trading flow.
 DEX validator nodes add their signatures to valid trades but the execution of those trades is handled directly by the underlying blockchains.
 The DEX output is deterministic and idempotent relative to its input so there can only be one correct version of history.
-
-### How does the LDEX UI application handle wallet passphrases?
-
-Passphrases provided to the DEX UI application are never sent across the wire; they are only kept in memory on your own computer.
-Order transactions are signed on the front end and submitted directly to the relevant blockchain for processing.
 
 ### What is the LDEX fee structure?
 
@@ -37,6 +32,11 @@ As a user, you have the ability to cancel your own order at any time by submitti
 Each trade is written to two different blockchains and the underlying transactions contain IDs which can be used to trace the movement of tokens across different blockchains.
 However, LDEX itself is not able to attach an identity to any wallet address so the pseudo-anonymity provided by the underlying blockchains is maintained.
 
+### How does the LDEX UI application handle wallet passphrases?
+
+Passphrases provided to the DEX UI application are never sent across the wire; they are only kept in memory on your own computer.
+Order transactions are signed on the front end and submitted directly to the relevant blockchain for processing.
+
 ### What is the minimum size of an order?
 
 This can vary between markets and is designed to limit spam. For Lisk and Leasehold, the minimum order is `10 LSK/LSH`.
@@ -45,6 +45,14 @@ This can vary between markets and is designed to limit spam. For Lisk and Leaseh
 
 If LDEX receives a transaction which it does not recognize, it will send the tokens back to the user minus the **base fee**.
 
+### How can I become an LDEX member/validator?
+
+Each LDEX market is made up of 10 to 15 members who validate cross-chain transfers and receive a share of trading fees. Most slots are reserved for Leasehold directors and original LDEX members but each market will also have some spare slots available for outside participants. You can apply for a slot on specific markets via the Leasehold [dex-members channel](https://discord.gg/mGCPYpS).
+
+### How can I get my token listed on LDEX?
+
+You can send a pitch deck or a link to your project website on the Leasehold [dex-pitches channel](https://discord.gg/2xugtUp). Projects are judged based on their potential and compatibility within with the LDEX ecosystem. Having a technical background is not necessary. Pure business cases will also be considered.
+
 ### Is LDEX a company?
 
 No. LDEX is made up of individual members who independently operate nodes which validate and sign cross-chain transfers.
@@ -52,4 +60,4 @@ This collaboration is founded purely on individual incentives and cryptography.
 
 ### Where is LDEX located?
 
-LDEX is not based in any country. Members can decide individually where they want to run their nodes.
+LDEX is not based in any country. Members decide individually where they want to run their nodes.
