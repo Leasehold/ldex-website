@@ -11,7 +11,7 @@ There is no point of centralization anywhere in the entire trading flow.
 DEX validator nodes add their signatures to valid trades but the execution of those trades is handled directly by the underlying blockchains.
 The DEX output is deterministic and idempotent relative to its input so there can only be one correct version of history.
 
-### How does the DEX application handle wallet passphrases?
+### How does the LDEX UI application handle wallet passphrases?
 
 Passphrases provided to the DEX UI application are never sent across the wire; they are only kept in memory on your own computer.
 Order transactions are signed on the front end and submitted directly to the relevant blockchain for processing.
