@@ -8,8 +8,8 @@ sidebar_label: FAQs
 
 Price history, order matching and trade execution are fully decentralized.
 There is no point of centralization anywhere in the entire trading flow.
-DEX validator nodes add their signatures to valid trades but the execution of the trades is handled directly by the underlying blockchains.
-The DEX output is deterministic and idempotent relative to its input so there can only be one correct version of history which is written to both affected blockchains.
+DEX validator nodes add their signatures to valid trades but the execution of those trades is handled directly by the underlying blockchains.
+The DEX output is deterministic and idempotent relative to its input so there can only be one correct version of history.
 
 ### What is the LDEX fee structure?
 
