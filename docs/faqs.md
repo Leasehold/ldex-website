@@ -18,7 +18,8 @@ Each time a trade is executed, the following fees are deducted from the cross-ch
 - **Base fee**: This is a flat fee which is used to cover the transaction fees of the underlying blockchains. It is levied against every type of DEX transaction. For Lisk and Leasehold blockchains, this fee is `0.1 LSK/LSH`.
 - **Rate fee**: This fee is a percentage of the total amount of each transfer. It is levied against all trade transactions (`t1` and `t2`) on both affected blockchains in addition to the base fee. This fee is currently `0.1%` for all LDEX markets.
 
-Because orders are filled in real time, the base fee could be levied multiple times for a single order depending on the number of matching counterparty orders.
+Because orders are filled in real time, the flat base fee could be levied multiple times for a single order depending on the number of matching counterparty orders.
+Also note that LDEX rounds down taker trades by up to `1 LSK/LSH` to guarantee that transfers can comfortably cover blockchain fees.
 
 ### Does LDEX have custody over my tokens?
 
