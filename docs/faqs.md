@@ -58,7 +58,7 @@ Each LDEX market is made up of 10 to 15 members who validate cross-chain transfe
 
 You can send a pitch deck or a link to your project website on the Leasehold [dex-pitches channel](https://discord.gg/2xugtUp). Projects are judged based on their potential and compatibility within with the LDEX ecosystem. Having a technical background is not necessary. Pure business cases will also be considered.
 
-### Is LDEX ecosystem scalable?
+### Is LDEX scalable?
 
 Yes, this can be achieved by supporting a multi-level hierarchy of sidechains connected to each other via DEX markets. Additional sub-sidechains can be launched to increase the total TPS capacity of existing sidechains. Top level chains are likely to be more valuable and have higher fees than chains further down in the market hierarchy.
 
