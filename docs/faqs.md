@@ -44,7 +44,11 @@ This can vary between markets and is designed to limit spam. For Lisk and Leaseh
 
 ### What happens if I send an invalid order to the DEX multisig address?
 
-If LDEX receives a transaction which it does not recognize, it will send the tokens back to the user minus the **base fee**.
+If LDEX receives a transaction which it does not recognize, it will send the tokens back to the user minus the `base fee`.
+
+### How long can limit orders stay open on LDEX?
+
+Limit orders on LDEX can stay open on the order book for up to 1 month before they expire. When an order expires, any unfilled amount will be refunded back to the maker's wallet address minus the `base fee`.
 
 ### How can I become an LDEX member/validator?
 
