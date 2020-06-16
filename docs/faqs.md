@@ -58,6 +58,12 @@ Each LDEX market is made up of 10 to 15 members who validate cross-chain transfe
 
 You can send a pitch deck or a link to your project website on the Leasehold [dex-pitches channel](https://discord.gg/2xugtUp). Projects are judged based on their potential and compatibility within with the LDEX ecosystem. Having a technical background is not necessary. Pure business cases will also be considered.
 
+### Is LDEX ecosystem scalable?
+
+Yes, this can be achieved by supporting a multi-level hierarchy of sidechains connected to each other via DEX markets. Additional sub-sidechains can be launched to increase the total TPS capacity of existing sidechains. Top level chains are likely to be more valuable and have higher fees than chains further down in the market hierarchy.
+
+Since LDEX leaves a complete decentralized trading history of prices and volumes on all participating blockchains, it will be possible for the value of any token to be determined automatically and trustlessly relative to any other token in the LDEX ecosystem. The goal of this approach is to allow all tokens within the LDEX ecosystem to be used interchangeably as a form payment according to their relative values. The innovation which makes this possible is that LDEX allows the relative value of different tokens to be calculated trustlessly and automatically.
+
 ### Is LDEX a company?
 
 No. LDEX is made up of individual members who independently operate nodes which validate and sign cross-chain transfers.
