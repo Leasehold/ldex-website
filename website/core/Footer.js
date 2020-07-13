@@ -47,7 +47,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/leasehold/lisk-dex-ui" target="_blank" rel="noreferrer noopener">GitHub: Lisk DEX UI</a>
+            <a href="https://github.com/leasehold/ldex-ui" target="_blank" rel="noreferrer noopener">GitHub: LDEX UI</a>
             <a href="https://github.com/jondubois/lisk-dex" target="_blank" rel="noreferrer noopener">GitHub: Lisk DEX</a>
             <a
               className="github-button"
