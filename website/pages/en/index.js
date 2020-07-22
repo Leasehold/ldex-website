@@ -207,7 +207,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="splashSubsection">
         <div className="splashSubsectionContent">
-          <div className="splashSubsectionCaption" style={{marginRight: '15px'}}>A project by</div>
+          <div className="splashSubsectionCaption" style={{marginRight: '15px'}}>Sponsored by</div>
             <a className="splashSubsectionLink" href={`https://leasehold.io`} target="_blank">
               <div className="splashSubsectionItem">
               <img src="img/leasehold-logo-with-text-white.png" />
