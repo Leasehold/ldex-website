@@ -138,7 +138,7 @@ class Index extends React.Component {
             title: 'Fast',
           },
           {
-            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 15 validators who sign cross-chain trades.',
+            content: 'LDEX implements a decentralized 2-way peg mechanism. Each DEX market is made up of between 10 to 100 validators who sign cross-chain trades.',
             image: `${baseUrl}img/icons/network.png`,
             imageAlign: 'top',
             title: 'Decentralized',
@@ -185,20 +185,20 @@ class Index extends React.Component {
 
     const DesktopApps = () => (
         <BlockWithHeading layout="fourColumn" background={'light'} heading={'Desktop app downloads'}>
-            {[
-                {
-                    image: 'img/icons/windows-icon.png',
-                    imageAlign: 'top',
-                    title: 'Windows',
-                    imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
-                },
-                {
-                    image: 'img/icons/ubuntu-icon.png',
-                    imageAlign: 'top',
-                    title: 'Linux',
-                    imageLink: 'downloads/lisk-dex-electron-0.1.0-linux-x86_64.AppImage'
-                },
-            ]}
+          {[
+            {
+              image: 'img/icons/windows-icon.png',
+              imageAlign: 'top',
+              title: 'Windows',
+              imageLink: 'downloads/lisk-dex-electron-0.1.0-win.exe'
+            },
+            {
+              image: 'img/icons/ubuntu-icon.png',
+              imageAlign: 'top',
+              title: 'Linux',
+              imageLink: 'downloads/lisk-dex-electron-0.1.0-linux-x86_64.AppImage'
+            },
+          ]}
         </BlockWithHeading>
     );
 
